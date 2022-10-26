@@ -1,3 +1,47 @@
-body { 
-    background-color: red;
+/*-------------
+     RESET
+-----------*/
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+.container{
+    width: 900px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.itmes{
+    position: relative;
+    width:700px;
+    height:300px;
+}
+.prev{
+    position: absolute;
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    top:0;
+    left:32%;
+    background-color: aliceblue;
+    transform: translate(-50%);
+   
+}
+.next{
+    position: absolute;
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    bottom:50px;
+    left:32%;
+    background-color: aliceblue;
+    transform: translate(-50%);
+    line-height: 20px;
+   
+}
+i{
+    padding:2px;
 }
