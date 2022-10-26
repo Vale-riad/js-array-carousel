@@ -18,6 +18,15 @@
     position: relative;
     width:700px;
     height:300px;
+    
+}
+.item.active {
+    display: block;
+}
+.item {
+    width: 700px;
+    height: 300px;
+    display: none;
 }
 .prev{
     position: absolute;
@@ -25,7 +34,7 @@
     height:20px;
     border-radius: 50%;
     top:0;
-    left:32%;
+    left:50%;
     background-color: aliceblue;
     transform: translate(-50%);
    
@@ -35,8 +44,8 @@
     width:20px;
     height:20px;
     border-radius: 50%;
-    bottom:50px;
-    left:32%;
+    bottom:-90px;
+    left:50%;
     background-color: aliceblue;
     transform: translate(-50%);
     line-height: 20px;
@@ -44,4 +53,9 @@
 }
 i{
     padding:2px;
+}
+.item img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
 }
