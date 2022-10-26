@@ -28,7 +28,7 @@
     
     display: none;
 }
-.prev{
+.btn-prev{
     position: absolute;
     width:20px;
     height:20px;
@@ -39,7 +39,7 @@
     transform: translate(-50%);
    
 }
-.next{
+.btn-next{
     position: absolute;
     width:20px;
     height:20px;
