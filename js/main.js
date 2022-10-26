@@ -11,10 +11,8 @@ let containerImages = document.getElementById("items");
 for (let index = 0; index < images.length; index++) {
     const img = `<div class="item active"><img src="${images[index]}"></div>`;
     containerImages.innerHTML += img; 
-    if ( index === 0 ) {
-        item.classList.add("active");
-    }
+    document.querySelector(".item").classList.toggle("show")
+    
 }
-let active = 0;
-let item = document.querySelectorAll(".item")[active];   
+
 
